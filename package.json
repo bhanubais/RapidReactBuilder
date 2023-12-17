@@ -1,0 +1,42 @@
+{
+  "name": "rapid-react-builder",
+  "version": "1.0.0",
+  "description": "Streamline your React development with esbuild's fast build system for efficient and modern web app creation.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhanubais/RapidReactBuilder.git"
+  },
+  "keywords": [
+    "esbuild",
+    "react",
+    "react-builder",
+    "build-tool",
+    "web-development",
+    "javascript",
+    "frontend",
+    "rapid-development",
+    "development-tool",
+    "scaffolding",
+    "fast-build",
+    "hot-reload",
+    "development-server"
+  ],
+  "author": "https://github.com/bhanubais",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhanubais/RapidReactBuilder/issues"
+  },
+  "homepage": "https://github.com/bhanubais/RapidReactBuilder#readme",
+  "devDependencies": {
+    "esbuild": "^0.19.9",
+    "esbuild-sass-plugin": "^2.16.0",
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
