@@ -19,31 +19,38 @@ RapidReactBuilder is a high-performance React application scaffolding tool, leve
 
 ```bash
 # Install RapidReactBuilder globally
-`npm install -g rapidreactbuilder`
+npm install -g rapidreactbuilder
 
 # Create a new React project
-`rapidreactbuilder create my-react-app`
+rapidreactbuilder create my-react-app
 ```
 
 ### Usage
+
 Navigate to your project directory and start the development server:
+
 ```bash
 cd my-react-app
 npm start
 ```
 
 ### Building for Production
+
 To create a production build, run:
+
 ```bash
 npm run build
 ```
 
 ## Contributing
+
 Contributions to RapidReactBuilder are welcome! Please read our [Contributing Guide](./CONTRIBUTING.md) for details on how to contribute.
 
 ## License
+
 RapidReactBuilder is open-source software [licensed as MIT](./LICENSE).
 
 ## Acknowledgements
- - Thanks to the [esbuild](https://esbuild.github.io/) team for their incredible work.
- - Inspired by [create-react-app](https://create-react-app.dev/).
+
+- Thanks to the [esbuild](https://esbuild.github.io/) team for their incredible work.
+- Inspired by [create-react-app](https://create-react-app.dev/).
