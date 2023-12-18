@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/styles/app.sass"],
+  "sourcesContent": ["// src/styles/app.sass\r\n$primary-color: #282c34\r\n$text-color: white\r\n\r\n.App\r\n  text-align: center\r\n  background-color: $primary-color\r\n  color: $text-color\r\n  min-height: 100vh\r\n  display: flex\r\n  flex-direction: column\r\n  align-items: center\r\n  justify-content: center\r\n  font-size: calc(10px + 2vmin)\r\n"],
+  "mappings": ";AAIA,CAAA;AACE,cAAA;AACA,oBALc;AAMd,SALW;AAMX,cAAA;AACA,WAAA;AACA,kBAAA;AACA,eAAA;AACA,mBAAA;AACA,aAAA,KAAA,KAAA,EAAA;;",
+  "names": []
+}

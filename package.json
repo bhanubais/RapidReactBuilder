@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Streamline your React development with esbuild's fast build system for efficient and modern web app creation.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhanubais/RapidReactBuilder.git"
   },
+  "type": "module",
   "keywords": [
     "esbuild",
     "react",
@@ -31,9 +34,16 @@
   },
   "homepage": "https://github.com/bhanubais/RapidReactBuilder#readme",
   "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
     "esbuild": "^0.19.9",
     "esbuild-sass-plugin": "^2.16.0",
-    "prettier": "^3.1.1"
+    "eslint": "^8.56.0",
+    "http": "^0.0.1-security",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "react": "^18.2.0",
